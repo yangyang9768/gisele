@@ -5586,10 +5586,10 @@ Client Area
   box-shadow: 10px 10px 33px -19px rgba(0, 0, 0, 0.75);
 }
 .single-help-fulfill-item:hover .content {
-  background-color: var(--main-color-one);
+  background-color: rgb(175, 206, 253);
 }
 .single-help-fulfill-item:hover .content.style-01 {
-  background-color: var(--main-color-two);
+  background-color: rgb(175, 206, 253);
 }
 .single-help-fulfill-item:hover .content.style-02 {
   background-color: #00c99f;
