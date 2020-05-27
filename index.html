@@ -74,6 +74,12 @@
    }
   .mobileshownone{display: none;}/*twitter style*/
   /* .care-calendar.mobile{display: none;} */
+  .care-calendar .owl-controls{
+    position: absolute;
+    top:-5%;
+    left:50%;
+    transform: translateX(-50%);
+  }
     </style>
   </head>
 
@@ -1078,22 +1084,27 @@
           margin: 10,
           responsiveClass: true,
           autoplay: true,
-         dots:true,
-         dotsEach:true,
+        
            autoplay: true,
            autoplayTimeout: 10000,
            video:true,
           responsive: {
             0: {
               items: 1,
+               dots: false,
+              dotsEach: false,
              
             },
             600: {
               items: 1,
+               dots: false,
+              dotsEach: false,
              
             },
             1000: {
               items:1,
+               dots: true,
+              dotsEach: true,
            
             },
            
