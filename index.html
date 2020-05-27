@@ -33,6 +33,8 @@
     gtag('js', new Date());
 
     gtag('config', 'UA-156158013-2');
+    var mail = new Audio ()
+    mail.src='./giseleletter.mp4'
   </script>
     <style>
       h1, h2, h3, h4, h5, h6 .section-title .title , .title{
@@ -64,13 +66,14 @@
     .single-support-item .content p {
       text-align: justify;
       font-size: 1rem;
+      color:black;
     }
     /* care-calendar caresoul */
    figure .nametag{
      position: absolute;z-index:1000;bottom:-5%;text-align:center;background-color: rgba(24, 1, 1, 0.836);color:white;width:100%;line-height:2;font-size:1rem;font-family: Arial;font-weight:bold;
    }
   .mobileshownone{display: none;}/*twitter style*/
-     
+  /* .care-calendar.mobile{display: none;} */
     </style>
   </head>
 
@@ -100,20 +103,17 @@
                   <div class="social-link">
                     <ul>
                       <li>
-                        <a href="#"
+                        <a href="https://www.facebook.com/GoddessGuide"
                           ><i class="fab fa-facebook-square facebook" style="color:white;"></i
                         ></a>
                       </li>
                       <li>
-                        <a href="#"
+                        <a href="https://twitter.com/goddessguide"
                           ><i class="fab fa-twitter-square twitter"  style="color:white;"></i
                         ></a>
                       </li>
-                      <li>
-                        <a href="#"
-                          ><i class="fab fa-linkedin instagram"  style="color:white;"></i
-                        ></a>
-                      </li>
+                      <li><a href="https://www.linkedin.com/in/gisele-scanlon-4a49a626/"><i class="fab fa-linkedin instagram"  style="color:white;"></i></a></li>
+                      <li><a href="https://www.instagram.com/giselescanlon/?hl=en"><i class="fab fa-instagram"  style="color:white;"></i></a></li>
                     </ul>
                   </div>
                 </div>
@@ -121,12 +121,12 @@
                   <ul class="info-items">
                     <li>
                       <a href="tel:0864120444" style="color:white;"
-                        ><i class="Neuton-phone"  style="color:white;"></i> 0864120444 </a
+                        ><i class="fas fa-phone-volume"  style="color:white;"></i> 0864120444 </a
                       >
                     </li>
                     <li>
                       <a href="mailto:Scanlogi@tcd.ie" style="color:white;"
-                        ><i class="Neuton-mail"  style="color:white;"></i> Scanlogi@tcd.ie</a
+                        ><i class="fas fa-envelope-open"  style="color:white;"></i> Scanlogi@tcd.ie</a
                       >
                     </li>
                   </ul>
@@ -141,7 +141,7 @@
         <div class="container nav-container">
           <div class="responsive-mobile-menu">
             <div class="logo-wrapper">
-              <a href="index.html" class="logo">
+              <a href="./Gisele Cares Vision Mani Document FINAL.pdf" class="logo">
                 <!-- <img src="assets/img/logo.png" alt="" /> -->
                 <img src="./assets/img/logo.png" alt="" style="display: block; width:150px;">
               </a>
@@ -160,10 +160,10 @@
           <div class="collapse navbar-collapse" id="bizcoxx_main_menu">
             <ul class="navbar-nav">
             
-              <li><a href="#about"> Gisèle</a></li>
+              <li><a href="#about"> About Gisèle</a></li>
               <li><a href="#manifesto">Vision</a></li>
               <li>
-                <a href="#testimonial">Testimonial</a>
+                <a href="#testimonial">Testimonials</a>
               </li>
               <li>
                 <a href="#letter">Care Map</a>
@@ -183,10 +183,10 @@
     </div>
     <div
       class="header-area style-01 header-bg-02"
-      style="background-image: url(assets/img/nav.jpg); background-size:cover;"
+      style="background-image: url(https://images.squarespace-cdn.com/content/v1/58646a1fd2b8574e99b237fe/1571043503953-47S5N7OZBKWW2DB8IJL1/ke17ZwdGBToddI8pDm48kPIWxhR0J8TOmkw8gjtpUdh7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0kMlYkjvFlctRdmAM11rxFTb6EvHVcuRCsw9z2ER5CHYMqbANK946mnhexQNPxvfUQ/Untitled-1.jpg?format=1500w); background-size:cover;"
     >
   
-      <div class="container">
+      <div class="container" style="transform: translateY(150px);">
         <div class="row">
           <div class="col-xl-6 col-lg-8">
             <div class="header-inner-02">
@@ -202,7 +202,7 @@
                   </div>
                 </div>
                 <div class="btn-wrapper margin-top-30">
-                  <a href="https://twitter.com/goddessguide?ref_src=twsrc%5Etfw" class="campign-btn">Social with Gis&egrave;le<i
+                  <a href="https://twitter.com/goddessguide?ref_src=twsrc%5Etfw" class="campign-btn">Connect with Gis&egrave;le<i
                       class="fas fa-long-arrow-alt-right"></i></a>
                 
                 </div>
@@ -239,6 +239,13 @@
                   offline Community spaces, promote Accessibility of services,
                   support Research and advocate for Equality by working with
                   postgraduates, College and National policy makers.
+                  </br>
+                  </br>
+                    <button class="btn blue-gradient waves-effect waves-light showinfo"
+                      style="border-radius:20px;text-transform: capitalize; font-size:18px;">
+                      View More
+                    
+                    </button>
                   </p>
                   <div class="giselepic">
                     <img src="https://pbs.twimg.com/profile_images/1245021729552039944/KjmfABYo_400x400.jpg" alt="">
@@ -260,6 +267,79 @@
           </div>
         </div>
       </div>
+      <div class="intro" style="text-align: center;margin-top:50px;display:none">
+        <div class="container">
+          <!-- Timeline -->
+          <div class="row">
+            <div class="col-md-12">
+              <div class="timeline-main">
+                <!-- Timeline Wrapper -->
+                <ul class="stepper stepper-vertical timeline timeline-basic pl-0">
+          
+                  <li>
+                    <!--Section Title -->
+                    <a href="#!">
+                      <span class="circle primary-color z-depth-1-half"><i class="fas fa-heart" aria-hidden="true"></i></span>
+                    </a>
+          
+                    <!-- Section Description -->
+                    <div class="step-content z-depth-1 ml-2 p-4">
+                      <h4 class="font-weight-bold">My student life in Trinity</h4>
+                      <p class="mb-0" style="font-size:1rem;text-align:justify;">The Trinity student experience, both inside and outside lectures, has revolutionised my understanding of myself, others
+                      and the world. I started out in the GSU (Trinity Graduate Students’ Union) as an enthusiastic GSU Class Representative
+                      in the School of English in 2016/17 and I was deeply honoured to be elected as GSU Vice President last year.</p>
+                    </div>
+                  </li>
+                  <li class="timeline-inverted">
+                    <!--Section Title -->
+                    <a href="#!">
+                      <span class="circle warning-color z-depth-1-half"><i class="fas fa-heart"
+                          aria-hidden="true"></i></span>
+                    </a>
+          
+                    <!-- Section Description -->
+                    <div class="step-content z-depth-1 mr-xl-2 p-4">
+                      <h4 class="font-weight-bold">My life in the GSU</h4>
+                      <p class=" mt-4 mb-0"  style="font-size:1rem;text-align:justify;">I have used my four years in the GSU to listen and respond to the needs and concerns of students and I work tirelessly
+                      to represent you, your space and your rights at all times and in all circumstances, I want to take everything I’ve
+                      learnt and accelerate positive change across Trinity. I am running for President because I CARE.</p>
+                    </div>
+                  </li>
+                  <li>
+                    <!--Section Title -->
+                    <a href="#!">
+                      <span class="circle danger-color z-depth-1-half"><i class="fas fa-heart"
+                          aria-hidden="true"></i></span>
+                    </a>
+          
+                    <!-- Section Description -->
+                    <div class="step-content z-depth-1 ml-2 p-4">
+                      <h4 class="font-weight-bold">My future with you</h4>
+                      <p class="mt-4 mb-0"  style="font-size:1rem;text-align:justify;">I have used my four years in the GSU to listen and respond to the needs and concerns of students and I work tirelessly
+                      to represent you, your space and your rights at all times and in all circumstances, I want to take everything I’ve
+                      learnt and accelerate positive change across Trinity. I am running for President because I CARE.</p>
+                    </div>
+                  </li>
+                 
+          
+                </ul>
+                <!-- Timeline Wrapper -->
+              </div>
+            </div>
+          </div>
+          <!-- Timeline -->
+         
+          
+          
+          
+         
+         
+ 
+        </div>
+        
+         
+      </div>
+             
     </section>
     <div class="support-our-activities" id="testimonial">
       <div class="continer">
@@ -270,7 +350,7 @@
                   ">
               <div class="content">
                 <h4 class="title">
-                  Listen to their story with Gis&egrave;le
+                  Listen to their stories with Gis&egrave;le
                 </h4>
                 <div class="vdo-btn">
                   <a class="video-play-btn style-01 mfp-iframe" href="https://www.youtube-nocookie.com/embed/Jj8YLTp8Btc"><i
@@ -278,7 +358,7 @@
                 </div>
               <div class="btn-wrapper" style
               ="margin-top:30px">
-                <a href="https://twitter.com/goddessguide?ref_src=twsrc%5Etfw" class="boxed-btn"> Social with Gisèle <i
+                <a href="https://twitter.com/goddessguide?ref_src=twsrc%5Etfw" class="boxed-btn"> Connect with Gisèle <i
                     class="fas fa-thumbs-up"></i></a>
               </div>
             </div>
@@ -374,12 +454,15 @@
             <div class="row justify-content-center">
               <div class="col-xl-8 col-sm-12 col-12">
                 <div class="section-title desktop-center margin-bottom-60">
-                  <span>Ensure your activities with us</span>
+                  <span></span>
                   <h2 class="title">
                    Vision
                   </h2>
                 </div>
                 <img src="./assets/img/i-care.png" alt="" style="display:block;width:100%">
+                <div class="btn-wrapper margin-top-30" style="text-align: center;">
+                  <a href="./Gisele Cares Vision Mani Document FINAL.pdf" class="boxed-btn">Learn More</a>
+                </div>
               </div>
             </div>
             <!-- <div class="row justify-content-center">
@@ -446,7 +529,7 @@
             <div class="charity-content desktop-center">
               <a href="#">
                 <h3 class="title" style="color: black;font-family:Neuton;font-size:3rem;">
-                  “Always concern what you concern”
+                  “I care with total commitment”
                 </h3>
               </a>
               <p style="color: black;font-size:1rem;">Gis&egrave;le</p>
@@ -472,8 +555,8 @@
                 </h4>
                 <div class="vdo-btn">
                   <a
-                    class="video-play-btn mfp-iframe"
-                    href="https://www.youtube-nocookie.com/embed/Jj8YLTp8Btc" >
+                    class="video-play-btn "
+                   onclick="mail.paused ? mail.play() : mail.pause(); $(this).children('i').toggleClass('fa-play fa-pause');" >
                     <i class="fas fa-play"></i
                   ></a>
                 </div>
@@ -494,133 +577,223 @@
             <div class="single-support-item" style="cursor:pointer;" >
               <div class="content style-01" onclick="window.open('https://www.facebook.com/hashtag/gis%C3%A8lecares','_self')">
                 <h4 class="title">#gisèlecares</h4>
-                <p>
-                  Join #gisèlecares activities share your story with Gisèle
+                <p style="color:white; font-size:1rem;">
+                  Join #gisèlecares activities on facebook, and share your story with Gisèle
                 </p>
               </div>
-              <div class="content" onclick="window.open(' href=https://wa.me/353872130895??text=This%201s%20Gisèle%20Scanlon%20always%20willing%20to%20help%','_self')">
-                <h4 class="title" style="line-height:2;user-select:none">
-                  More Questions </br>Always Contact Gis&egrave;le
-                </h4>
+              <div class="content">
+                <a class="fab fa-envelope" style="font-size:32px;border:none;color:white;" href="mailto:Scanlogi@tcd.ie">
+                  <h4 class="title" style="line-height:2;user-select:none">
+                    More Questions </br>Always Contact Gis&egrave;le
+                  </h4>
+                </a>
+               
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- Help fulfill Activites Area -->
-    <div class="helpfulfill-area padding-bottom-90 padding-top-115" id="calendar">
+    <!--care calendar -->
+   <div class="helpfulfill-area padding-bottom-90 padding-top-115" id="calendar"> 
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-xl-8 col-sm-12 col-12">
             <div class="section-title desktop-center margin-bottom-60">
-              <span>Ensure your activities with us</span>
+              <span>Follow Gisèle's activities on her Care Calendar</span>
               <h2 class="title">
                 Care Calendar
               </h2>
             </div>
           </div>
         </div>
-         <p style="font-size:1rem;">Swipe To View More>>></p>
-        <div class="care-calendar">
-          <div >
+         <p style="font-size:1rem;">Swipe Right To View More>>></p>
+        <div class="care-calendar mobile">
+       
+          <div class='innovation' >
             <div class="single-help-fulfill-item margin-bottom-30">
               <div class="single-fulfill-img">
-                <img src="assets/img/help-fulfill/01.png" alt="" />
+                <img src="./assets/img/we-offer/gsu.jpg" alt="" />
               </div>
-              <div class="icon" style="background-color:rgb(253, 87, 87);">
-              <i class="fas fa-heart"></i>
-              </div>
-              <div class="content">
-                <ul class="post-meta" style="list-style: none;">
-                  <li><a href="#"><span><em>By</em></span> Admin</a></li>
-                  <li class="date"><a href="#"><i class="far fa-calendar-plus"></i>20 Dec 2019</a></li>
-                </ul>
-                <h4 class="title"><a href="#">Better rules for selecting</a></h4>
-              </div>
-            </div>
-          </div>
-          <div >
-            <div class="single-help-fulfill-item margin-bottom-30">
-              <div class="single-fulfill-img">
-                <img src="./assets/img/we-offer/chirstmas market.png" alt="" />
-              </div>
-              <div class="icon"  style="background-color:rgb(66, 195, 255);">
+              <div class="icon"  style="background-color:rgb(2, 146, 212);">
                 <i class="fas fa-heart"></i>
               </div>
               <div class="content style-01">
                 <ul class="post-meta" style="list-style: none;">
-                  <li><a href="http://trinitynews.ie/2019/12/trinity-hosts-first-ever-christmas-market/" style="color: black;line-height:2;font-size:1.5rem;font-weight:400;"><span><b>Christmas Market</b></span></a></li>
-                  <li class="date"><a href="#"><i class="far fa-calendar-plus"></i>4th Dec 2019</a></li>
+                  <li><span class="subtitile">Innovation</span></li>
+                  <li><a href="#" style="color: black;line-height:2;font-size:1.5rem;font-weight:400;"><span><b>Graduate Students’ Union Journals</b></span></a></li>
+                  <li class="date"><a href="#"><i class="far fa-calendar-plus"></i>July 12, 2019 ongoing</a></li>
                 </ul>
-                <h4 class="title"><a href="#" style="color:black;font-family:aril;text-align: justify;">Trinity College had never held a Christmas Market before and to raise much needed funds for the PG Student Assistance
-                Fund (Hardship Fund) Trinity College I emailed the Provost on 10/10/2019 and asked him if we could host a Christmas
-                Market on the night on the Christmas tree lighting to raise much needed funds. I also asked if he’d promote Irish when
-                lighting the Christmas tree. Both happened and student stall holders kept their market proceeds and collection buckets
-                used throughout the event raised a healthy figure for the Student Assistance Fund.</a></h4>
+                <h4 class="title"><p href="#">I have shown a commitment to innovation. I took on the responsibility this year of managing two teams who were working
+                on the GSU owned publications, namely College Green Journal, a literary journal and Trinity Postgraduate Review, a peer
+                reviewed academic journal. I partnered with a former GSU President Shane Collins to negotiate taking these journals
+                online with the Dean of Research’s Office and the Library as it became apparent that it would offer more opportunity to
+                postgraduate researchers getting published. As GSU President I will publish these two Journals in the Autumn online and
+                show how Innovation is not simply about technology or business, it is about doing things differently and better and with
+                creativity. I will push the College to develop a culture of innovation which responds to challenges with creativity,
+                imagination, collaboration and ambition and contributes to progress on climate targets and the UN SDGs. I will also
+                champion a scheme to recruit postgraduate talent to look at publishing and innovative solutions to COVID-19.</p></h4>
+                <button class="btn blue-gradient waves-effect waves-light"> <a class='detail-link' href="https://ojs.tchpc.tcd.ie/index.php/tpr">View Here</a> </button>
               </div>
             </div>
           </div>
-          <div >
+          <div class='community'>
             <div class="single-help-fulfill-item margin-bottom-30">
               <div class="single-fulfill-img">
-                <img src="assets/img/help-fulfill/03.png" alt="" />
+                <img src="https://www.universitytimes.ie/wp-content/uploads/2019/12/DSC6683-scaled-e1576069840495.jpg" alt="" />
               </div>
-              <div class="icon"  style="background-color:rgb(43, 107, 245);">
-                <i class="fas fa-heart"></i>
-              </div>
-              <div class="content">
-                <ul class="post-meta" style="list-style: none;">
-                  <li><a href="#"><span><em>By</em></span> Admin</a></li>
-                  <li class="date"><a href="#"><i class="far fa-calendar-plus"></i>20 Dec 2019</a></li>
-                </ul>
-                <h4 class="title"><a href="#">Better rules for selecting</a></h4>
-              </div>
-            </div>
-          </div>
-          <div >
-            <div class="single-help-fulfill-item margin-bottom-30">
-              <div class="single-fulfill-img">
-                <img src="assets/img/help-fulfill/03.png" alt="" />
-              </div>
-              <div class="icon"  style="background-color:rgb(131, 253, 172);">
-                <i class="fas fa-heart"></i>
-              </div>
-              <div class="content style-02">
-                <ul class="post-meta" style="list-style: none;">
-                  <li><a href="#"><span><em>By</em></span> Admin</a></li>
-                  <li class="date"><a href="#"><i class="far fa-calendar-plus"></i>20 Dec 2019</a></li>
-                </ul>
-                <h4 class="title"><a href="#">Better rules for selecting</a></h4>
-              </div>
-            </div>
-          </div>
-          <div >
-            <div class="single-help-fulfill-item margin-bottom-30">
-              <div class="single-fulfill-img">
-                <img src="assets/img/help-fulfill/03.png" alt="" />
-              </div>
-              <div class="icon"  style="background-color:rgb(110, 167, 252);">
+              <div class="icon" style="background-color:rgb(247, 250, 87);">
                 <i class="fas fa-heart"></i>
               </div>
               <div class="content style-01">
                 <ul class="post-meta" style="list-style: none;">
-                  <li><a href="#"><span><em>By</em></span> Admin</a></li>
-                  <li class="date"><a href="#"><i class="far fa-calendar-plus"></i>20 Dec 2019</a></li>
+                  <li><span class="subtitile">Community</span></li>
+                  <li><a href="#"
+                      style="color: black;line-height:2;font-size:1.5rem;font-weight:400;"><span><b>Christmas Commons</b></span></a></li>
+                  <li class="date"><a href="#"><i class="far fa-calendar-plus"></i>10th Dec 2019</a></li>
                 </ul>
-                <h4 class="title"><a href="#">Better rules for selecting</a></h4>
+                <h4 class="title">
+                  <p>I have shown a commitment to Community. I invited four staff members for honorary GSU membership at our annual GSU
+                  Christmas Commons and a Trinity Community of academics professionals, and students celebrated with The Dean of Graduate
+                  Studies Neville Cox; Dean of Students Kevin O’Kelly; Ciara Joyce – who serves as the postgraduate liaison officer of the
+                  Student Counselling Service – and assistant librarian Niamh Brennan honorary membership. At the time of Christmas
+                  Commons the draft of the new Strategic Plan committed to undertake the systemic renewal of postgraduate education and
+                  these GSU Honorary members are the embodiment of the building blocks of that idea.</p>
+                </h4>
+                <button class="btn blue-gradient waves-effect waves-light"> <a class='detail-link'
+                    href="https://www.universitytimes.ie/2019/12/four-staff-members-get-honorary-gsu-membership/">View Here</a> </button>
               </div>
             </div>
           </div>
+            <div class='community'>
+              <div class="single-help-fulfill-item margin-bottom-30">
+                <div class="single-fulfill-img">
+                  <img src="./assets/img/we-offer/chirstmasmarket.jpg" alt="" />
+                </div>
+                <div class="icon" style="background-color:rgb(247, 250, 87);">
+                  <i class="fas fa-heart"></i>
+                </div>
+                <div class="content style-01">
+                  <ul class="post-meta" style="list-style: none;">
+                    <li><span class="subtitile">Community</span></li>
+                    <li><a href="#" style="color: black;line-height:2;font-size:1.5rem;font-weight:400;"><span><b>Christmas
+                           Market</b></span></a></li>
+                    <li class="date"><a href="#"><i class="far fa-calendar-plus"></i>4th Dec 2019</a></li>
+                  </ul>
+                  <h4 class="title">
+                    <p>Trinity College had never held a Christmas Market before and to raise much needed funds for the PG Student Assistance
+                    Fund (Hardship Fund) Trinity College I emailed the Provost on 10/10/2019 and asked him if we could host a Christmas
+                    Market on the night on the Christmas tree lighting to raise much needed funds. I also asked if he’d promote Irish when
+                    lighting the Christmas tree. Both happened and student stall holders kept their market proceeds and collection buckets
+                    used throughout the event raised a healthy figure for the Student Assistance Fund.</p>
+                  </h4>
+                  <button class="btn blue-gradient waves-effect waves-light"> <a class='detail-link'
+                      href="https://www.universitytimes.ie/2019/12/its-gorgeous-here-trinitys-first-michaelmas-market-impresses/
+
+ ">View Here</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          <div class='accessibility'>
+            <div class="single-help-fulfill-item margin-bottom-30">
+              <div class="single-fulfill-img">
+                <img src="https://www.universitytimes.ie/wp-content/uploads/2019/04/1937readingroomatnight.jpg" alt="" />
+              </div>
+              <div class="icon" style="background-color:rgb(255, 22, 205);">
+                <i class="fas fa-heart"></i>
+              </div>
+              <div class="content style-01">
+                <ul class="post-meta" style="list-style: none;">
+                  <li><span class="subtitile">Accessibility</span></li>
+                  <li><a href="#"
+                      style="color: black;line-height:2;font-size:1.5rem;font-weight:400;"><span><b>Postgraduate Spaces</b></span></a></li>
+                  <li class="date"><a href="#"><i class="far fa-calendar-plus"></i>Dec 5, 2019</a></li>
+                </ul>
+                <h4 class="title">
+                  <p>I have shown commitment to accessibility. I care deeply about the spaces we share as a community and the fact that some
+                  students still lack full access to facilities like kitchen space or study space or common rooms. As spaces was of deep
+                  importance to me this year as I was also the GSU PG Spaces Officer I brought some very practical solutions to improve
+                  the welfare of the postgraduate community. I learnt first-hand how adding microwaves and fridges and seating and food
+                  cupboards can really improve the student experience. Some of you who are my friends with disabilities could not come to
+                  the 1937 Reading Room this year because it is wheelchair inaccessible and I promise I will try to fix that. As GSU
+                  President, I am committed to working with Disability Services to change this and to publish a new long-term
+                  accessibility strategy for the postgraduate community. I am committed to widening access and ensuring the diverse
+                  experience and needs of postgraduate students are reflected in University policy and planning.</p>
+                </h4>
+                <button class="btn blue-gradient waves-effect waves-light"> <a class='detail-link'
+                    href="https://www.universitytimes.ie/2019/12/food-cabinets-installed-in-1937-reading-room-kitchenette/">View Here</a> </button>
+              </div>
+            </div>
+          </div>
+          <div class='research'>
+            <div class="single-help-fulfill-item margin-bottom-30">
+              <div class="single-fulfill-img">
+                <img src="./assets/img/we-offer/research.jpg" alt="" />
+              </div>
+              <div class="icon" style="background-color:rgb(13, 255, 154);">
+                <i class="fas fa-heart"></i>
+              </div>
+              <div class="content style-01">
+                <ul class="post-meta" style="list-style: none;">
+                  <li><span class="subtitile">Research</span></li>
+                  <li><a href="#"
+                      style="color: black;line-height:2;font-size:1.5rem;font-weight:400;"><span><b>Research Integrity and Impact Module</b></span></a></li>
+                  <li class="date"><a href="#"><i class="far fa-calendar-plus"></i>Jan 26 2019</a></li>
+                </ul>
+                <h4 class="title">
+                  <p>I have shown a commitment to research. Through revision the format and content of the 5 ECTS structured PhD module in
+                  Research Integrity and Impact in an Open Scholarship Era for research students will transform this year. This mandatory
+                  online module which is taken across the three faculties was developed last year and through our student feedback we
+                  expressed a desire for the module to radically transform. The library informatics officer Niamh Brennan and the Dean of
+                  Graduate Studies welcomed this authentic feedback and inputs from our postgraduate community and I was invited to help
+                  on this pitch to bring change. Thanks to your valuable feedback, we were able to secure funding to employ a dynamic team
+                  to help develop, redesign and rebuild this module from the ground up to enhance the student user experience for incoming
+                  doctoral postgraduates this coming year. A Big “Thank You!”</p>
+                </h4>
+                <button class="btn blue-gradient waves-effect waves-light"> <a class='detail-link'
+                    href="https://www.teachingandlearning.ie/project/structured-phd-module-in-research-integrity-and-impact-in-an-open-scholarship-era/">View Here</a> </button>
+              </div>
+            </div>
+          </div>
+          <div class='equality'>
+            <div class="single-help-fulfill-item margin-bottom-30">
+              <div class="single-fulfill-img">
+                <img src="./assets/img/we-offer/hotwater.jpg" alt="" />
+              </div>
+              <div class="icon" style="background-color:rgb(255, 75, 62);">
+                <i class="fas fa-heart"></i>
+              </div>
+              <div class="content style-01">
+                <ul class="post-meta" style="list-style: none;">
+                  <li><span class="subtitile">Equality</span></li>
+                  <li><a href="#"
+                      style="color: black;line-height:2;font-size:1.5rem;font-weight:400;"><span><b>Free Hot Water</b></span></a></li>
+                  <li class="date"><a href="#"><i class="far fa-calendar-plus"></i>Jan 17 2020</a></li>
+                </ul>
+                <h4 class="title">
+                  <p>I have shown a commitment to equality. I worked through the Christmas holidays this year to support students who don’t
+                  celebrate it. I noticed that the only hot water supply available to postgraduate students free of charge over Christmas
+                  was what Estates & Facilities and the Library had made available in the 1937 Reading Room to postgraduates. What started
+                  out as an accessibility issue (it limits movement of postgrads), became for me about equality. The negotiations I had
+                  around Free Hot Water across campus involved clever thinking from the Catering Services around how best to facilitate
+                  everyone. Many of us use the Free Hot Water because we’re on budgets.</p>
+                </h4>
+                <button class="btn blue-gradient waves-effect waves-light"> <a class='detail-link'
+                    href="http://www.universitytimes.ie/2020/01/campus-eateries-to-offer-free-hot-water-to-students-with-own-containers/">View Here</a> </button>
+              </div>
+            </div>
+          </div>
+         
         </div>
       </div>
     </div>
   <div id="team">
     <!-- First row -->
     <div class="section-title desktop-center margin-bottom-60">
-      <span>Diversity make  differences </span>
+      
       <h2 class="title">
-        Our   Team
+        The   Team
       </h2>
     </div>
     <div class="container">
@@ -676,7 +849,7 @@
               <img src="./assets/img/teamfile/chang xu.png" class="img-fluid" />
               <p class='nametag'>Chang Xu</p>
             </a>
-            <figcaption>chang xu is an student of international management working as web developer and seo specialist</figcaption>
+            <figcaption>Chang Xu is an student of International Management, working as web developer and SEO specialist</figcaption>
           </figure>
           <figure class="col-md-4  mobileshownone">
             <a href="./assets/img/teamfile/Stephen Odundo.png" data-size="1600x1067">
@@ -685,10 +858,9 @@
                 Stephen Odundo
               </p>
             </a>
-            <figcaption>12 years experience in marketing communications, sustainability and operations management with UNICEF and UNEP.
-            Currently pursuing MSc Digital Marketing Strategy at Trinity College Dublin. Elected Trinity Business School
-            postgraduate convenor representing 800+ graduates. Volunteering as an organizer for the Trinity Demystify AI Conference
-            4 April 2020.</figcaption>
+            <figcaption>The Campaign Manager for the #gisèlecares GSU Presidential Campaign. 12 years experience in marketing communications,
+            sustainability and operations management with UNICEF and UNEP. Currently pursuing MSc Digital Marketing Strategy at
+            Trinity Business School. Elected School Convenor representing 800+ postgraduates. Volunteered as an organiser for theTrinity Demystify AI Conference.</figcaption>
           </figure>
           <figure class="col-md-4  mobileshownone">
             <a href="./assets/img/teamfile/Tanya Khurana.png" data-size="1600x1067">
@@ -711,7 +883,9 @@
                 George Hannaford
               </p>
             </a>
-            
+            <figcaption>
+              I graduated from Trinity College in 2018 with an LLM. After that I moved to London where I live now and work across a range of newspapers as a designer director.
+            </figcaption>
           </figure>
             <figure class="col-md-4">
               <a href="./assets/img/teamfile/eva.png" data-size="1600x1067">
@@ -737,11 +911,16 @@
             <figure class="col-md-4">
               <a href="./assets/img/teamfile/sarah.jpg" data-size="1600x1067">
                 <img src="./assets/img/teamfile/sarah.jpg" class="img-fluid" />
+                <p class="nametag">
+                  Sarah Cullen
+                </p>
               </a>
-              <p class="nametag">
-                Sarah Cullen
-              </p>
               
+            <figcaption>
+              Sarah Cullen,PhD in American Literature, School of English Sarah Cullen is a PhD candidate of American Literature who has recently passed her viva. She is an Irish Research Council Scholar and a 2017-2018 Postgraduate Fellow at the Eccles Centre for American Studies. Her research focuses on
+              night studies in nineteenth-century American literature. She is also a teaching assistant in TCD and UCD.
+
+            </figcaption>
             </figure>
             <figure class="col-md-4  mobileshownone">
               <a href="./assets/img/teamfile/r.png" data-size="1600x1067">
@@ -762,21 +941,20 @@
             </figure>
           
             <figure class="col-md-4  mobileshownone">
-              <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(137).jpg" data-size="1600x1067">
-                <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(137).jpg" class="img-fluid" />
+              <a href="./assets/img/teamfile/Arunav Gupta.jpg" data-size="1600x1067">
+                <img src="./assets/img/teamfile/Arunav Gupta.jpg" class="img-fluid" />
+                <p class="nametag">
+                Dr  Arunav Gupta
+                </p>
               </a>
-              <figcaption>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
-                velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
-                voluptatem.</figcaption>
+              
             </figure>
            
             <figure class="col-md-4   mobileshownone">
               <a href="./assets/img/teamfile/E.png" data-size="1600x1067">
                 <img src="./assets/img/teamfile/E.png" class="img-fluid" />
               </a>
-              <figcaption>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
-                velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
-                voluptatem.</figcaption>
+             
             </figure>
            
            
@@ -790,16 +968,17 @@
   </div>
   <script src="https://assets.juicer.io/embed.js" type="text/javascript"></script>
   <link href="https://assets.juicer.io/embed.css" media="all" rel="stylesheet" type="text/css" />
-  <ul class="juicer-feed" data-feed-id="88299922083"  data-per="8">
-  
-    <div class="section-title desktop-center margin-bottom-60">
-      <span>#shecares </span>
-      <h2 class="title">
-       Gisèle on Social
-      </h2>
+  <div class="container">
+    <ul class="juicer-feed" data-feed-id="88299922083" data-per="12">
+      <div class="section-title desktop-center margin-bottom-60 margin-top-60">
+        <span>#gisèlecares </span>
+        <h2 class="title">
+          Gisèle on Social
+        </h2>
+      </div>
+    </ul>
   </div>
-  </ul>
-
+ 
   
 </div>
 <!-- twitter -->
@@ -828,24 +1007,25 @@
     <!-- back to top area start -->
     <div class="back-to-top">
       <span class="back-top">
+        <img src="./assets/img/logo.png" alt="" style="display: block;width:100%;margin-top:10px;">
         
-        <i class="fa fa-angle-up"></i>
       </span>
     </div>
     <!-- back to top area end -->
     <!-- <div class="whatsapp"> -->
-      <div class="btn-wrapper voteforher">
+      <!-- social with gisle change -->
+      <!-- <div class="btn-wrapper voteforher">
         <a href="https://twitter.com/goddessguide?ref_src=twsrc%5Etfw" class="boxed-btn"> Social with Gisèle <i class="fas fa-thumbs-up"></i></a>
-      </div>
+      </div> -->
       <div class="mail" style="background-color: rgb(253, 93, 82); bottom:145px;">
         <span style="display:block;text-align:center;">
-        <a class="fab fa-envelope" style="font-size:32px;border:none;color:white;" href="mailto:changxu9768@gmail.com"></a>
+        <a class="fab fa-envelope" style="font-size:32px;border:none;color:white;" href="mailto:Scanlogi@tcd.ie.com"></a>
         </span>
       </div>
       <div class="whatsapp" style="background-color: rgb(24, 187, 6); bottom:90px;">
         <span  style="display:block;text-align:center;">
           <a class="fab fa-whatsapp" style="font-size:32px;border:none;color:white;"
-            href="https://wa.me/353872130895??text=This%201s%20Gisèle%20Scanlon%20always%20willing%20to%20help%"></a>
+            href="https://wa.me/3530864120444??text=This%201s%20Gisèle%20Scanlon%20always%20willing%20to%20help%"></a>
         </span>
       </div>
     <!-- </div> -->
@@ -913,7 +1093,7 @@
              
             },
             1000: {
-              items:2,
+              items:1,
            
             },
            

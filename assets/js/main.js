@@ -24,13 +24,16 @@
     /*------------------
             back to top
         ------------------*/
+    // $(document).on("click", ".back-to-top", function () {
+    //   $("html,body").animate(
+    //     {
+    //       scrollTop: 0,
+    //     },
+    //     2000
+    //   );
+    // });
     $(document).on("click", ".back-to-top", function () {
-      $("html,body").animate(
-        {
-          scrollTop: 0,
-        },
-        2000
-      );
+      window.location.href = "./Gisele Cares Vision Mani Document FINAL.pdf";
     });
     /*------------------------------
             counter section activation
@@ -80,7 +83,7 @@
       $TestimonialCarousel.owlCarousel({
         loop: true,
         autoplay: true, //true if you want enable autoplay
-        autoPlayTimeout: 2000,
+        autoPlayTimeout: 5000,
         margin: 30,
         dots: true,
         nav: false,
@@ -233,7 +236,7 @@
   $(window).on("scroll", function () {
     //back to top show/hide
     var ScrollTop = $(".back-to-top");
-    if ($(window).scrollTop() > 1000) {
+    if ($(window).scrollTop() > 800) {
       ScrollTop.fadeIn(1000);
     } else {
       ScrollTop.fadeOut(1000);
@@ -292,3 +295,7 @@
     lastScrollTop = st;
   }
 })(jQuery);
+
+$(".showinfo").on("click", function () {
+  $(".intro").css("display", "block");
+});

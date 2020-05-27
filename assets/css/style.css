@@ -81,7 +81,7 @@ Version: 1.0.0
   font-style: normal;
 }
 :root {
-  --main-color-one: #0e73b9;
+  --main-color-one: #3ea4ec;
   --main-color-two: #16327a;
   --secondary-color: #e41b14;
   --heading-color: #000000;
@@ -4023,14 +4023,14 @@ Client Area
 .back-to-top {
   position: fixed;
   right: 30px;
-  bottom: 200px;
-  width: 50px;
+  bottom: 30px;
+  width: 150px;
   height: 50px;
-  background-color: var(--main-color-one);
+  background-color: rgba(175, 223, 255, 0.466);
   color: #fff;
   text-align: center;
-  line-height: 50px;
-  border-radius: 50%;
+
+  border-radius: 10px;
   z-index: 99;
   font-size: 25px;
   cursor: pointer;
@@ -5582,23 +5582,18 @@ Client Area
   transition: all 500ms;
   border: 1px solid #e5e5e5;
 }
+.single-help-fulfill-item .title p {
+  color: black;
+  font-family: arial;
+  text-align: justify;
+  font-size: 1rem;
+  line-height: 2;
+}
 .single-help-fulfill-item:hover .icon {
   box-shadow: 10px 10px 33px -19px rgba(0, 0, 0, 0.75);
 }
-.single-help-fulfill-item:hover .content {
-  background-color: rgb(245, 249, 255);
-}
-.single-help-fulfill-item:hover .content.style-01 {
-  background-color: rgb(245, 249, 255);
-}
 .single-help-fulfill-item:hover .content.style-02 {
   background-color: #00c99f;
-}
-.single-help-fulfill-item:hover .content .title {
-  color: #fff;
-}
-.single-help-fulfill-item:hover .content p {
-  color: #fff;
 }
 .single-help-fulfill-item .single-fulfill-img {
   position: relative;
@@ -6512,6 +6507,22 @@ Client Area
 .contribute-single-item .content .btn-wrapper .boxed-btn {
   padding: 12px 20px;
 }
-.care-calendar .owl-controls .owl-dots .owl-dot span {
-  width: 10px;
+a.detail-link {
+  font: 1em sans-serif;
+  color: white;
+  text-transform: capitalize;
+}
+.care-calendar .owl-dot {
+  width: 20%;
+  border-radius: 2px;
+}
+.care-calendar .owl-dot span {
+  display: block;
+  width: 100%;
+}
+.care-calendar .subtitile {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--body-font);
+  color: var(--main-color-one);
 }
