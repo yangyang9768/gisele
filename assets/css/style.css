@@ -2166,14 +2166,14 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   background-color: transparent;
   position: absolute;
   left: 0;
-  top: 0;
+
   width: 100%;
   min-height: 100px;
   z-index: 2;
 }
-.navbar-area.nav-style-02.has-topbar {
+/* .navbar-area.nav-style-02.has-topbar {
   top: 50px;
-}
+} */
 .navbar-area.nav-style-02.has-topbar-02 {
   top: 122px;
 }
@@ -3268,7 +3268,8 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   left: 50px;
   z-index: 1;
 }
-.header-area .header-inner-02 .header-bottom .btn-wrapper .campign-btn i {
+/* headerarrow */
+/* .header-area .header-inner-02 .header-bottom .btn-wrapper .campign-btn i {
   height: 45px;
   width: 45px;
   font-size: 20px;
@@ -3277,7 +3278,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   line-height: 45px;
   text-align: center;
   background-color: var(--main-color-two);
-}
+} */
 .header-area .header-inner-03 {
   overflow: hidden;
 }
@@ -4040,7 +4041,7 @@ Client Area
 .voteforher {
   position: fixed;
   right: 30px;
-  bottom: 30px;
+  bottom: 100px;
   z-index: 99;
 }
 /*whatsapp*/
