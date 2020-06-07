@@ -7,7 +7,8 @@
   }
   .navbar-area.nav-style-02 .nav-container .navbar-collapse .navbar-nav li a {
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    font-weight: 500;
   }
   .care-calendar .owl-dots {
     display: block;
@@ -49,7 +50,7 @@
   }
   .navbar-area.nav-style-02 .nav-container .navbar-collapse .navbar-nav li a {
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
   .care-calendar .owl-dots {
     display: block;
@@ -90,7 +91,7 @@
     display: block;
   }
   .navbar-area.nav-style-02 .nav-container .navbar-collapse .navbar-nav li a {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: white;
   }
   .care-calendar .owl-dots {
@@ -133,7 +134,8 @@
   }
   .navbar-area.nav-style-02 .nav-container .navbar-collapse .navbar-nav li a {
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    font-weight: normal;
   }
   .testimonialpicbx .mobile {
     display: none;
@@ -160,7 +162,7 @@
   }
   .navbar-area.nav-style-02 .nav-container .navbar-collapse .navbar-nav li a {
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
   .care-calendar .owl-dots {
     display: block;
