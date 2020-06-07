@@ -3269,7 +3269,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   z-index: 1;
 }
 /* headerarrow */
-/* .header-area .header-inner-02 .header-bottom .btn-wrapper .campign-btn i {
+.header-area .header-inner-02 .header-bottom .btn-wrapper .campign-btn i {
   height: 45px;
   width: 45px;
   font-size: 20px;
@@ -3278,7 +3278,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   line-height: 45px;
   text-align: center;
   background-color: var(--main-color-two);
-} */
+}
 .header-area .header-inner-03 {
   overflow: hidden;
 }
